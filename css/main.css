@@ -1,0 +1,132 @@
+@import url("../css/unslider.css");
+@import url("../css/unslider-dots.css");
+@import url("../css/gridism.css");
+@import url("../css/font-awesome.css");
+@import url("../css/jquery-ui.css");
+@import url("https://code.jquery.com/ui/1.11.4/themes/ui-darkness/jquery-ui.min.css");
+@import url("http://fonts.googleapis.com/css?family=Droid+Sans");
+body {
+  font-family: 'Droid Sans', serif;
+  line-height: 1.7em;
+  background: #232323;
+  color: #fff;
+  margin: 0;
+  padding: 0; }
+  body a {
+    color: #f9992b;
+    text-decoration: none; }
+  body ul {
+    padding: 0;
+    margin: 0; }
+  body li {
+    list-style-type: none; }
+  body input[type="text"] {
+    padding: 6px;
+    border: none;
+    min-width: 250px;
+    border-radius: 3px; }
+
+header {
+  padding: 10px 0; }
+  header .logo {
+    margin: 0 0 10px 0;
+    padding: 0; }
+  header p.tagline {
+    margin: 0;
+    padding: 0;
+    color: #aaa; }
+  header .header_r {
+    float: right;
+    padding-top: 10px; }
+
+.main-nav {
+  background: #333;
+  color: #fff;
+  padding: 15px 0; }
+  .main-nav li {
+    display: inline; }
+  .main-nav a {
+    color: #fff;
+    padding: 15px;
+    text-decoration: none; }
+  .main-nav a:hover {
+    color: #000;
+    background: #f9992b; }
+
+.showcase {
+  height: auto;
+  margin-bottom: 20px; }
+  .showcase img {
+    width: 100%; }
+  .showcase .caption {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    margin-top: -10px; }
+    .showcase .caption h2 {
+      margin: 0;
+      padding: 0 0 10px 0;
+      border-bottom: 1px solid #666; }
+
+.unslider-arrow {
+  margin-top: -350px;
+  color: #fff; }
+  .unslider-arrow .fa {
+    font-size: 45px;
+    opacity: 0.3; }
+
+.unslider-nav {
+  margin-top: 15px; }
+
+.post-wrap {
+  padding: 10px;
+  border: 1px solid #666;
+  border-radius: 5px;
+  margin-top: 30px;
+  overflow: auto; }
+
+.post {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #333;
+  overflow: auto; }
+
+.meta {
+  border-bottom: 4px double #f9992b; }
+
+.button {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: 1px solid #232323;
+  border-radius: 4px; }
+  .button:hover {
+    background-color: #f9992b;
+    color: #000; }
+
+footer {
+  background: #333;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px; }
+
+.bar {
+  background-color: #f9992b;
+  color: #000;
+  padding: 20px 0;
+  margin-bottom: 20px; }
+  .bar h1 {
+    margin: 0 0 0 10px;
+    padding: 0; }
+
+.sidebar-widget {
+  margin-left: 40px;
+  margin-bottom: 30px; }
+  .sidebar-widget ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; }
+  .sidebar-widget li {
+    line-height: 2.2em;
+    border-bottom: 1px solid #666; }
